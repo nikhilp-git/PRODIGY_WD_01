@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+h1{
+    position: relative;
+    
+    font-size: 50px;
+}
+
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+.container
+{
+    
+    height:300px;
+     width: 1300px; 
+     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.game
+{
+    height:60vmin;
+    width:60vmin;
+    
+     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+
+}
+.button
+{
+    background-color: yellow;
+    height: 18vmin;
+     width: 18vmin;
+     padding: 10px;
+     margin: 2px;  
+     box-shadow: 5px 5px 5px black;
+     color: darkred;
+     font-size: 85px;
+     border-radius: 10px;
+}
+.reset
+{ 
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    margin: 40px;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 2px black;   
+    
+}
+
+.newgame
+{
+    border-radius: 5px;
+     padding: 5px; 
+    height: 30px;
+    width: 100px;
+    /* margin: 50px; */
+    justify-content: center;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 2px black;   
+}
+
+.winner
+{
+    color: aliceblue;
+    font-size: 50px;
+}
+.contain-btn
+{
+        height: 100vmin;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+}
+.hide
+{
+      display:none ;
+    height: 800px;
+      
+}
